@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lsystem>
+    <start>F-F-F-F</start>
+    <rules>
+        <rule from="F" to="FF-F--F-F" />
+    </rules>
+    <symbols>
+        <symbol name="F" interpretation="draw" />
+        <symbol name="-" interpretation="rotate" param="-90" />
+        <symbol name="+" interpretation="rotate" param="+90" />
+    </symbols>
+    <params>
+        <param name="iterations" value="4" />
+        <param name="start-x" value="0.2" />
+        <param name="start-y" value="0.8" />
+        <param name="step-length" value="6" />
+    </params>
+</lsystem>

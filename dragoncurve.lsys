@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lsystem>
+    <start>FX</start>
+    <rules>
+        <rule from="X" to="X+YF" />
+        <rule from="Y" to="FX-Y" />
+    </rules>
+    <symbols>
+        <symbol name="F" interpretation="draw" />
+        <symbol name="-" interpretation="rotate" param="-90" />
+        <symbol name="+" interpretation="rotate" param="+90" />
+    </symbols>
+</lsystem>

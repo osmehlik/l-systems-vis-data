@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lsystem>
+    <start>F</start>
+    <rules>
+        <rule from="F" to="F-[-F+F+F]+[+F-F-F]F" />
+    </rules>
+    <symbols>
+        <symbol name="F" interpretation="draw" />
+        <symbol name="-" interpretation="rotate" param="-20" />
+        <symbol name="+" interpretation="rotate" param="+20" />
+        <symbol name="[" interpretation="push" />
+        <symbol name="]" interpretation="pop" />
+    </symbols>
+    <params>
+        <param name="iterations" value="4" />
+        <param name="start-y" value="0.8" />
+        <param name="start-rot" value="270" />
+    </params>
+</lsystem>
