@@ -15,5 +15,7 @@
         <param name="iterations" value="4" />
         <param name="start-y" value="0.8" />
         <param name="start-rot" value="270" />
+        <param name="color-bg" value="#11342d" />
+        <param name="color-fg" value="#8def4f" />
     </params>
 </lsystem>

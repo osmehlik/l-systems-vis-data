@@ -10,4 +10,8 @@
         <symbol name="-" interpretation="rotate" param="-90" />
         <symbol name="+" interpretation="rotate" param="+90" />
     </symbols>
+    <params>
+        <param name="color-bg" value="#292830" />
+        <param name="color-fg" value="#b5aca4" />
+    </params>
 </lsystem>

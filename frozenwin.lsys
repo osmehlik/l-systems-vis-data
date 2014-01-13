@@ -14,5 +14,7 @@
         <param name="start-x" value="0.2" />
         <param name="start-y" value="0.8" />
         <param name="step-length" value="6" />
+        <param name="color-bg" value="#051758" />
+        <param name="color-fg" value="#e95ed4" />
     </params>
 </lsystem>
