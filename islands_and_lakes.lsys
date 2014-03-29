@@ -15,7 +15,7 @@
         <param name="color-bg" value="#f2fbe3" />
         <param name="color-fg" value="#467cc2" />
         <param name="iterations" value="2" />
-        <param name="step" value="8" />
+        <param name="step-length" value="8" />
         <param name="start-x" value="0.30" />
         <param name="start-y" value="0.20" />
     </params>
