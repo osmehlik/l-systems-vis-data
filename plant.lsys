@@ -17,7 +17,7 @@
         <param name="start-y" value="0.95" />
         <param name="start-rot" value="270" />
         <param name="step-length" value="2" />
-        <param name="color-bg" value="#11342d" />
-        <param name="color-fg" value="#8def4f" />
+        <param name="color-bg" value="#c9c380" />
+        <param name="color-fg" value="#5e6e03" />
     </params>
 </lsystem>
