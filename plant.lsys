@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<lsystem>
+    <start>X</start>
+    <rules>
+        <rule from="X" to="F[+X][-X]FX" />
+        <rule from="F" to="FF" />
+    </rules>
+    <symbols>
+        <symbol name="F" interpretation="draw" />
+        <symbol name="-" interpretation="rotate" param="-25" />
+        <symbol name="+" interpretation="rotate" param="+25" />
+        <symbol name="[" interpretation="push" />
+        <symbol name="]" interpretation="pop" />
+    </symbols>
+    <params>
+        <param name="iterations" value="7" />
+        <param name="start-y" value="0.95" />
+        <param name="start-rot" value="270" />
+        <param name="step-length" value="2" />
+        <param name="color-bg" value="#11342d" />
+        <param name="color-fg" value="#8def4f" />
+    </params>
+</lsystem>
