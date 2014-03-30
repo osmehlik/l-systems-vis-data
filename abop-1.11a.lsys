@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lsystem>
+    <start>L</start>
+    <rules>
+        <rule from="L" to="L+R++R-L--LL-R+"/>
+        <rule from="R" to="-L+RR++R+L--L-R"/>
+    </rules>
+    <symbols>
+        <symbol name="L" interpretation="draw"/>
+        <symbol name="R" interpretation="draw"/>
+        <symbol name="-" interpretation="rotate" param="-60"/>
+        <symbol name="+" interpretation="rotate" param="60"/>
+        <symbol name=" "/>
+        <symbol name=" "/>
+        <symbol name=" "/>
+        <symbol name=" "/>
+    </symbols>
+    <params>
+        <param name="color-bg" value="#0c6a6c"/>
+        <param name="color-fg" value="#599290"/>
+        <param name="start-x" value="0.5"/>
+        <param name="start-y" value="0.1"/>
+        <param name="start-rot" value="0"/>
+        <param name="iterations" value="4"/>
+        <param name="step-length" value="10"/>
+    </params>
+</lsystem>
